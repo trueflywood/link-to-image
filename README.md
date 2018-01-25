@@ -23,11 +23,13 @@ import { LinkToImageDirectivesModule } from 'link-to-image';
 ```
 
 And use in your template:
-Was
+
+it was
 ```html
 <p>{{message}}</p>
 ```
-now
+
+it became
 ```html
 <p  [link-toimage-icon]="message"></p>
 ```
