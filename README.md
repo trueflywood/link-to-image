@@ -24,10 +24,11 @@ import { LinkToImageDirectivesModule } from 'link-to-image';
 
 Copy the fonts from folder "../node_modules/font-awesome/fonts" to your fonts folder.
 
-Add Font Awesome style 
+Add Font Awesome style:
 ```scss
+// scss
 ...
-$font-path: "<you-fonts-folder>";  
+$fa-font-path: "<you-fonts-folder>";
 @import "../node_modules/font-awesome/scss/font-awesome";
 ...
 ```
