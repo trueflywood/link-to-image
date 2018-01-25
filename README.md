@@ -22,6 +22,16 @@ import { LinkToImageDirectivesModule } from 'link-to-image';
 })
 ```
 
+Copy the fonts from folder "../node_modules/font-awesome/fonts" to your fonts folder.
+
+Add Font Awesome style 
+```scss
+...
+$font-path: "<you-fonts-folder>";  
+@import "../node_modules/font-awesome/scss/font-awesome";
+...
+```
+
 And use in your template:
 
 it was
@@ -33,3 +43,6 @@ it became
 ```html
 <p  [link-toimage-icon]="message"></p>
 ```
+
+
+
