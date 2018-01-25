@@ -1,3 +1,7 @@
+## [0.0.3] - 2017-08-28
+### Добавлено
+- fix README
+
 ## [0.0.2] - 2017-08-28
 ### Добавлено
 - added dependency to Font Awesome
