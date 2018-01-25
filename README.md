@@ -33,3 +33,11 @@ it became
 ```html
 <p  [link-toimage-icon]="message"></p>
 ```
+
+Add Font Awesome 
+```scss
+...
+$font-path: "../node_modules/font-awesome/fonts";
+@import "../node_modules/font-awesome/scss/font-awesome";
+...
+```

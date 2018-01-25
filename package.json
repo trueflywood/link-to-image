@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "This directive converts the link into a picture.",
   "main": "dist/index.js",
-  "types" : "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ngc build -p ./tsconfig.json"
@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/trueflywood/link-to-image#readme",
   "dependencies": {
-    "@angular/core": "^5.2.2"
+    "@angular/core": "^5.2.2",
+    "font-awesome": "^4.7.0"
   },
   "devDependencies": {
     "@angular/common": "^5.2.2",
