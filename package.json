@@ -1,6 +1,6 @@
 {
   "name": "link-to-image",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This directive converts the link into a picture.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
