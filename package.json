@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/trueflywood/link-to-image#readme",
   "dependencies": {
-    "@angular/core": "*",
+    "@angular/core": ">=4.1.0",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "@angular/common": "*",
-    "@angular/compiler": "*",
-    "@angular/compiler-cli": "*",
+    "@angular/common": ">=4.1.0",
+    "@angular/compiler": ">=4.1.0",
+    "@angular/compiler-cli": ">=4.1.0",
     "rxjs": "^5.4.0",
     "typescript": "^2.3.4",
     "zone.js": "^0.8.12"
