@@ -1,6 +1,6 @@
 # CHANGELOG #
 
-## [0.0.8] - 2018-02-12
+## [0.0.8 - 0.0.9] - 2018-02-12
 ### Добавлено
 - update to last dependencies version
 
