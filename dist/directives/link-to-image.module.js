@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var link_toimage_icon_1 = require("./link-toimage-icon/link-toimage-icon");
-var LinkToImageDirectivesModule = /** @class */ (function () {
+var LinkToImageDirectivesModule = (function () {
     function LinkToImageDirectivesModule() {
     }
     LinkToImageDirectivesModule.decorators = [

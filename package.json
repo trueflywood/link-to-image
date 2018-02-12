@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/trueflywood/link-to-image#readme",
   "dependencies": {
-    "@angular/core": "^5.2.4",
+    "@angular/core": "5.0.3",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "@angular/common": "^5.2.4",
-    "@angular/compiler": "^5.2.4",
-    "@angular/compiler-cli": "^5.2.4",
-    "rxjs": "^5.5.6",
-    "typescript": "2.6",
-    "zone.js": "^0.8.20"
+    "@angular/common": "5.0.3",
+    "@angular/compiler": "5.0.3",
+    "@angular/compiler-cli": "5.0.3",
+    "rxjs": "5.5.2",
+    "typescript": "2.4.2",
+    "zone.js": "0.8.18"
   }
 }

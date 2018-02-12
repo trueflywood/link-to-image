@@ -5,7 +5,7 @@ var core_1 = require("@angular/core");
  * Дериктива заменяющая ссылку на иконку
  * Необходим Font Awesome версии 4.1 или позднее
  */
-var LinkToimageIconDirective = /** @class */ (function () {
+var LinkToimageIconDirective = (function () {
     function LinkToimageIconDirective(element, render) {
         this.element = element;
         this.render = render;
