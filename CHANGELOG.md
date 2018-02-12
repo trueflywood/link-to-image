@@ -1,5 +1,9 @@
 # CHANGELOG #
 
+## [0.0.8] - 2018-02-12
+### Добавлено
+- update to last dependencies version
+
 ## [0.0.7] - 2018-01-30
 ### Добавлено
 - fix dependencies version and tsconfig
