@@ -72,7 +72,7 @@ var LinkToimageIconDirective = /** @class */ (function () {
         { type: core_1.Renderer2, },
     ]; };
     LinkToimageIconDirective.propDecorators = {
-        'text': [{ type: core_1.Input, args: ['link-toimage-icon',] },],
+        "text": [{ type: core_1.Input, args: ['link-toimage-icon',] },],
     };
     return LinkToimageIconDirective;
 }());
