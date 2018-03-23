@@ -1,6 +1,6 @@
 {
   "name": "link-to-image",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "This directive converts the link into a picture.",
   "scripts": {
     "build": "gulp build",
@@ -38,6 +38,7 @@
     "@angular/core": "^5.0.0"
   },
   "devDependencies": {
+      "font-awesome": "^4.7.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
     "@angular/compiler-cli": "^5.0.0",
