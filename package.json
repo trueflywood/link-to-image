@@ -38,6 +38,7 @@
     "@angular/core": "^5.0.0"
   },
   "devDependencies": {
+      "font-awesome": "^4.7.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
     "@angular/compiler-cli": "^5.0.0",
