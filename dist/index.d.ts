@@ -1,2 +1,5 @@
-export { LinkToimageIconDirective } from './directives/link-toimage-icon/link-toimage-icon';
-export { LinkToImageDirectivesModule } from './directives/link-to-image.module';
+import { ModuleWithProviders } from "@angular/core";
+export * from './link-toimage-icon.directive';
+export declare class LinkToimageIconModule {
+    static forRoot(): ModuleWithProviders;
+}

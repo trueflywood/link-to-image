@@ -1,5 +1,8 @@
-import { Directive, ElementRef, Input, NgModule, Renderer2 } from '@angular/core';
-import { CommonModule } from '@angular/common';
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common')) :
+	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common'], factory) :
+	(factory((global['link-to-image'] = {}),global.core,global.common));
+}(this, (function (exports,core,common) { 'use strict';
 
 /**
  * @fileoverview added by tsickle
@@ -101,17 +104,17 @@ var LinkToimageIconDirective = (function () {
             ' <div style="overflow-wrap: break-word; width: 100%;  padding-right: 2em;">' + this.text + '</div>';
     };
     LinkToimageIconDirective.decorators = [
-        { type: Directive, args: [{
+        { type: core.Directive, args: [{
                     selector: '[link-toimage-icon]' // Attribute selector
                 },] },
     ];
     /** @nocollapse */
     LinkToimageIconDirective.ctorParameters = function () { return [
-        { type: ElementRef, },
-        { type: Renderer2, },
+        { type: core.ElementRef, },
+        { type: core.Renderer2, },
     ]; };
     LinkToimageIconDirective.propDecorators = {
-        "text": [{ type: Input, args: ['link-toimage-icon',] },],
+        "text": [{ type: core.Input, args: ['link-toimage-icon',] },],
     };
     return LinkToimageIconDirective;
 }());
@@ -136,9 +139,9 @@ var LinkToimageIconModule = (function () {
         };
     };
     LinkToimageIconModule.decorators = [
-        { type: NgModule, args: [{
+        { type: core.NgModule, args: [{
                     imports: [
-                        CommonModule
+                        common.CommonModule
                     ],
                     declarations: [
                         LinkToimageIconDirective
@@ -153,4 +156,9 @@ var LinkToimageIconModule = (function () {
     return LinkToimageIconModule;
 }());
 
-export { LinkToimageIconModule, LinkToimageIconDirective };
+exports.LinkToimageIconModule = LinkToimageIconModule;
+exports.LinkToimageIconDirective = LinkToimageIconDirective;
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+})));

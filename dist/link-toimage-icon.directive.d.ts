@@ -1,9 +1,9 @@
-import { ElementRef, Renderer2 } from '@angular/core';
+import { ElementRef, OnChanges, OnInit, Renderer2 } from '@angular/core';
 /**
  * Дериктива заменяющая ссылку на иконку
  * Необходим Font Awesome версии 4.1 или позднее
  */
-export declare class LinkToimageIconDirective {
+export declare class LinkToimageIconDirective implements OnInit, OnChanges {
     private element;
     private render;
     text: string;

@@ -1,0 +1,29 @@
+{
+  "name": "link-to-image",
+  "version": "0.0.12",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueflywood/link-to-image"
+  },
+  "author": {
+    "name": "Алексей Компанец",
+    "email": "trueflywood@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trueflywood/link-to-image/issues"
+  },
+  "main": "link-to-image.umd.js",
+  "module": "link-to-image.js",
+  "jsnext:main": "link-to-image.js",
+  "typings": "link-to-image.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4",
+    "font-awesome": "^4.7.0"
+  }
+}
